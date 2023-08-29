@@ -1,0 +1,1 @@
+﻿I apologize, but the code you provided appears to be an HTML error page, not a code snippet. Please provide the code you would like to generate an interface for under the dotnet.Service namespace, and specify any dependencies or requirements.
