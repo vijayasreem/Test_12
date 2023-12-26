@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexClass xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <status>Active</status>
+    <packageVersions>
+        <majorNumber>1</majorNumber>
+        <minorNumber>0</minorNumber>
+        <namespace>policy_issuance</namespace>
+    </packageVersions>
+    <fullName>PolicyIssuanceAPI</fullName>
+    <description>Apex class for transferring data in real-time through API for policy issuance</description>
+    <methods>
+        <name>transferData</name>
+        <parameters>
+            <name>customerID</name>
+            <type>String</type>
+            <description>The Customer ID parameter for transferring data</description>
+        </parameters>
+        <description>Transfers data in real-time through API for policy issuance</description>
+        <annotations>
+            <name>testMethod</name>
+        </annotations>
+    </methods>
+    <methods>
+        <name>validateData</name>
+        <parameters>
+            <name>customerID</name>
+            <type>String</type>
+            <description>The Customer ID parameter for validating data</description>
+        </parameters>
+        <description>Validates the data before transferring it</description>
+        <annotations>
+            <name>testMethod</name>
+        </annotations>
+    </methods>
+    <methods>
+        <name>debitPremium</name>
+        <parameters>
+            <name>customerID</name>
+            <type>String</type>
+            <description>The Customer ID parameter for debiting premium amount</description>
+        </parameters>
+        <description>Debits the premium amount from the customer's account</description>
+        <annotations>
+            <name>testMethod</name>
+        </annotations>
+    </methods>
+    <methods>
+        <name>generateCOI</name>
+        <parameters>
+            <name>customerID</name>
+            <type>String</type>
+            <description>The Customer ID parameter for generating a COI</description>
+        </parameters>
+        <description>Generates a COI in response to the API call</description>
+        <annotations>
+            <name>testMethod</name>
+        </annotations>
+    </methods>
+</ApexClass>
